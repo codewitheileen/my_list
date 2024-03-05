@@ -1,0 +1,23 @@
+my_list= []
+print("List Before Append:", my_list)
+my_list.append(10)
+print("List After Append:", my_list)
+my_list.append(20)
+print("List After Append:", my_list)
+my_list.append(30)
+print("List After Append:", my_list)
+my_list.append(40)
+print("List After Append:", my_list)
+my_list= [10,20,30,40]
+my_list.insert(1,15)
+print("List After insert:", my_list)
+other_list= [50,60,70]
+print(other_list)
+my_list.extend(other_list)
+print("List After extend:", my_list)
+my_list.remove(70)
+print("List After remove:", my_list)
+my_list.sort()
+print("List After sort:", my_list)
+x= my_list.index(30)
+print(x)
